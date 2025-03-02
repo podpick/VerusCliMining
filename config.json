@@ -1,27 +1,23 @@
 {
-	"pools":[
-	{
-		"name": "LuckPool",
-        	"url": "stratum+tcp://verus.wattpool.net:1230 -u $RWZVjsjJbhHeGV1cjTyoNBJEfJCrJuYzY5.$redmi -p x",
-		"timeout": 150
-	},
-	{
-		"name": "LuckPoolFailover1",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
-		"timeout": 150
-	},
-	{
-		"name": "LuckPoolFailover2",
-        	"url": "stratum+tcp://na.luckpool.net:3957",
-		"timeout": 150
-	}
-	],
-	"user": "RWZVjsjJbhHeGV1cjTyoNBJEfJCrJuYzY5",
-	"pass": "x",
-	"algo": "verus",
-	"threads": 8,
-	"cpu-priority": 1,
-	"retry-pause": 5,
-	"api-allow": "192.168.0.0/16",
-	"api-bind": "0.0.0.0:4068"
+
+    "pools": [
+
+        {
+
+            "url": "stratum+tcp://verus.wattpool.net:1230",
+
+            "user": "RWZVjsjJbhHeGV1cjTyoNBJEfJCrJuYzY5",
+
+            "pass": "redmi"
+
+        }
+
+    ],
+
+    "algo": "neoscrypt",
+
+    "threads": 8,
+
+    "intensity": 20
+
 }
