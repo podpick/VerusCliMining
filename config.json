@@ -2,7 +2,7 @@
 	"pools":[
 	{
 		"name": "LuckPool",
-        	"url": "stratum+tcp://na.luckpool.net:3960",
+        	"url": "stratum+tcp://verus.wattpool.net:1230 -u $RWZVjsjJbhHeGV1cjTyoNBJEfJCrJuYzY5.$redmi -p x",
 		"timeout": 150
 	},
 	{
